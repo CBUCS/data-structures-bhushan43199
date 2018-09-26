@@ -10,10 +10,10 @@ public class Main {
 
         LinkedList<String> list=new LinkedList<String>();
         int size = list.size();
-        list.insert(new LinkedListNode<String>("Manish"));
-        list.insert(new LinkedListNode<String>("Pandit"));
-        list.insert(new LinkedListNode<String>("Tanvi"));
-        list.insert(new LinkedListNode<String>("Monika"));
+        list.insert(new LinkedListNode<String>("Montu"));
+        list.insert(new LinkedListNode<String>("Black Mamba"));
+        list.insert(new LinkedListNode<String>("Chhayu"));
+        list.insert(new LinkedListNode<String>("Ritu"));
         list.print();
         list.remove();
 
