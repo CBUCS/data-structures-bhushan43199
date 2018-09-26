@@ -8,18 +8,20 @@ public class Main {
         //Implementing Linked List Method
 
 
-        System.out.println("--------------------TEST------------------");
-        LinkedList<S> ll = new LinkedList<S>(10);
-        ll.addAtHead(1);
-        ll.addAtHead(2);
-        ll.addAtHead(3);
-        ll.addAtTail(4);
-        ll.addAtTail(5);
-        ll.addAtIndex(4, 9);
-        ll.addAtIndex(4, 9);
-        ll.deleteAtIndex(4);
-        ll.printList();
+        LinkedList<String> list=new LinkedList<String>();
+        int size = list.size();
+        list.insert(new LinkedListNode<String>("Manish"));
+        list.insert(new LinkedListNode<String>("Pandit"));
+        list.insert(new LinkedListNode<String>("Tanvi"));
+        list.insert(new LinkedListNode<String>("Monika"));
+        list.print();
+        list.remove();
 
+
+        System.out.println("length of ArrayList after adding elements: " + size);
+
+        System.out.println("After removing the head..");
+        list.print();
 
         //implementing set methode
 
